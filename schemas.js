@@ -1,7 +1,7 @@
 const mong = require("mongoose");
 
 async function setUpConnection(){
-    await mong.connect("mongodb+srv://SatwikMohan:Captain47.@cluster0.b8jy3oh.mongodb.net/SocialMedia")
+    await mong.connect("mongodb+srv://SatwikMohan:@cluster0.b8jy3oh.mongodb.net/SocialMedia")
     .then(()=>console.log("Connection Established"))
     .catch(()=>console.log("Connection Failure"));
 }
